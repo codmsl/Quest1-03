@@ -1,0 +1,196 @@
+* {
+    margin: 0px; padding: 0px;
+}
+body {
+    font-family: 'Verdana'; font-size: 16px;
+    color: black;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: white; border-bottom: 1px solid black;
+    z-index: 1;
+}
+.header {
+    width: 1180px; height: 120px;
+    margin: 0px auto;
+    overflow: auto;
+    position: relative;
+}
+.header > h1 {
+    position: absolute;
+    left: 10px; bottom: 15px;
+    float: left; overflow: auto;
+}
+.header > h1 a {
+    text-decoration: none;
+    color: black;
+}
+.header > h1 ~ .box {
+    position: absolute;
+    left: 10px; bottom: 15px;
+    width: 1140px;
+    margin: 0px auto;
+    overflow: auto;
+}
+.header > h1 ~ .box > nav {
+    float: right;
+    position: relative;
+}
+.header > h1 ~ .box > nav {
+    float: right;
+    position: relative;
+}
+.header > h1 ~ .box > nav > ul {
+    overflow: hidden;
+}
+.header > h1 ~ .box > nav > ul > li {
+    list-style: none;
+    text-decoration: none;
+    float: left; padding: 0px 0px 0px 60px;
+    font-weight: 700;
+}
+.header > h1 ~ .box > nav > ul > li a {
+    color: rgb(81, 81, 81);
+    text-decoration: none;
+}
+.header > h1 ~ .box > nav > ul > li a:hover {
+    color: darkblue;
+}
+.header > nav {
+    float: right; overflow: hidden;
+    position: absolute;
+    right: 30px; top: 20px;
+}
+.header > nav > ul {
+    overflow: hidden;
+}
+.header > nav > ul > li {
+    list-style: none;
+    text-decoration: none;
+    float: left; margin-top: 0px; padding: 0px 0px 0px 20px;
+    font-size: 11px; font-weight: 300;
+}
+.header > nav > ul > li a {
+    color: grey;
+    text-decoration: none;
+}
+section {
+    width: 1000px;
+    margin: 0px auto;
+    z-index: 2;
+}
+article {
+    float: left;
+    font-size: 20px; color: white; font-weight: 700;
+}
+article.article1 {
+    width: 700px; height: 400px;
+    margin: 130px 5px 5px 0px;
+    background-image: url('700x400.png');
+    position: relative;
+}
+article.article1 > p {
+    position: absolute;
+    right: 10px; bottom: 10px;
+    font-size: 30px;
+}
+article.article2 {
+    width: 290px; height: 190px;
+    margin: 130px 0px 5px 5px;
+    background-image: url('290x190.png');
+    position: relative;
+}
+article.article2 > p {
+    position: absolute;
+    top: 50px; left: 10px;
+}
+article.article3 {
+    width: 290px; height: 200px;
+    margin: 5px 0px 5px 5px;
+    position: relative;
+}
+article.article3 > .article3-1 {
+    width: 290px; height: 95px;
+    background-image: url('290x95-1.png');
+    position: relative;
+}
+article.article3 > .article3-1 > p {
+    position: absolute;
+    right: 10px; bottom: 20px;
+}
+article.article3 > .article3-2 {
+    width: 290px; height: 95px;
+    margin-top: 10px;
+    background-image: url('290x95-2.png');
+    position: relative;
+}
+article.article4 {
+    width: 490px; height: 490px;
+    margin: 5px 5px 5px 0px;
+    position: relative;
+}
+article.article4 > .article4-1 {
+    width: 490px; height: 240px;
+    background-image: url('490x240-1.png');
+    position: relative;
+}
+article.article4 > .article4-1 > p {
+    position: absolute;
+    left: 95px; top: 160px; 
+    width: 300px;
+    color: black; font-size: 16px; font-weight: 550;
+}
+article.article4 > .article4-2 {
+    width: 490px; height: 240px;
+    margin-top: 10px;
+    background-image: url('490x240-2.png');
+    position: relative;
+}
+article.article4 > .article4-2 > p {
+    position: absolute;
+    right: 20px; bottom: 30px;
+    color: gold; font-size: 30px;
+}
+article.article5 {
+    width: 500px; height: 490px;
+    margin: 5px 0px 5px 5px;
+    background-image: url('500x490.png');
+    position: relative;
+}
+article.article6 {
+    width: 1000px; height: 371px;
+    margin: 5px 0px;
+    background-image: url('1000x371.png');
+    position: relative;
+    text-align: center;
+}
+article.article6 > p {
+    display: block;
+    width: 1000px; margin: 0px auto;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px; font-weight: 550;
+}
+article.article7 {
+    width: 1000px; height: 361px;
+    margin: 5px 0px;
+    background-image: url('1000x361.png');
+    position: relative;
+}
+article.article7 > .box {
+    width: 450px; height: 150px;
+    position: absolute;
+    right: 30px; bottom: 40px;
+    font-weight: 100;
+}
+article.article7 > .box > p {
+    display: inline;
+    font-size: 20px; line-height: 100%;
+}
+div.big {
+    display: inline; 
+    font-size: 30px; font-weight: 700;
+}
